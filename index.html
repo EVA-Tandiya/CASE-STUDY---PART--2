@@ -23,11 +23,14 @@
             <div class="test">
                 <b>Test Image</b>
                 <img src="85120553.jpg" class="img-responsive" >
-                <h5>Output on microsoft azure
+                <div id="camera"></div>
+                <button class="btn btn-info" onclick="snap()">Take Snapshot</button>
+                <button class="btn btn-success" onclick="check()">Identify Image</button>
+                <h5>Output on microsoft azure:
                     <span>a dog lying on a colorful rug</span>
                 </h5>
-                <h5>Output on mobelnet
-                    <span></span>
+                <h5>Output on mobelnet:
+                    <span id="answer"></span>
                 </h5>
                 <div class="result">
                     <h4>Result
@@ -36,6 +39,7 @@
                 </div>
             </div>
         </center>
+        <script src="main.js"></script>
     </body>
 
 </html>

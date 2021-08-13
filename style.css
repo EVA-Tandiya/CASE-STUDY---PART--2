@@ -11,3 +11,9 @@ body{
    width: 200px;
    height: 200px;    
 }
+#camera,#result{
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 20px rgba(224, 6, 6, 0.884);
+    border: 2px solid rgba(0, 0, 0, 0.685);
+}
